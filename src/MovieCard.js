@@ -34,7 +34,7 @@ import React, { Component } from 'react';
 // }
 
 const MovieCard = (props) => {
-  const { users, usersWhoLikedMovie, movieInfo } = this.props;
+  const { users, usersWhoLikedMovie, movieInfo } = props;
 
   return (
     <li key={movieInfo.id}>
